@@ -5,7 +5,7 @@ def main():
     for i in range(0, boys):
         if i % 2 == 0:
             first_day.append(names_list[i])
-    print('Первый день: ', first_day)
+    print('Первый день:', first_day)
     pass
 
 

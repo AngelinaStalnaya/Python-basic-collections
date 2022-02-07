@@ -6,7 +6,7 @@ def main():
         if numbers % 2 > 0:
             num_list.append(numbers)
 
-    print('Список из нечётных чисел от 1 до N: ', num_list)
+    print('Список из нечётных чисел от 1 до N:', num_list)
     pass
 
 
