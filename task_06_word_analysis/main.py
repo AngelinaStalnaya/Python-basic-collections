@@ -7,8 +7,7 @@ def main():
         word.count(i)
         if word.count(i) == 1:
             original += 1
-    print('Количество уникальных букв в слове: ', original)
-    pass
+    print('Кол-во уникальных букв:', original)
 
 
 if __name__ == '__main__':

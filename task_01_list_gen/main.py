@@ -7,7 +7,7 @@ def main():
             num_list.append(numbers)
 
     print('Список из нечётных чисел от 1 до N:', num_list)
-    pass
+
 
 
 if __name__ == '__main__':

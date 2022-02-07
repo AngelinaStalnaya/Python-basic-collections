@@ -10,8 +10,8 @@ def main():
     new_box = int(input('Введите вес нового контейнера: '))
     containers_list.append(new_box)
     containers_list.sort(reverse = True)
-    print('Место, на которое нужно поставить  новый контейнер: ', containers_list.index(new_box) + 1)
-    pass
+    print('Номер, куда встанет новый контейнер:', containers_list.index(new_box) + 1)
+
 
 
 if __name__ == '__main__':

@@ -7,11 +7,11 @@ def main():
     for i in range(all_films):
         title = input('Введите название фильма: ')
         if title in films:
-            my_list.append(title)
+            my_list.append(str(title))
         else:
-            print('Ошибка: фильма', title, ' у нас в списке нет :(')
-    print('Ваш список любимых фильмов: ', my_list)
-    pass
+            print('Ошибка: фильма', title, 'у нас нет :(')
+    print('Ваш список любимых фильмов:', ", ".join(my_list))
+
 
 
 if __name__ == '__main__':
